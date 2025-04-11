@@ -29,5 +29,12 @@ terraform -version
 1. Create directory in home
 ```bash
 cd ~
-mkdir 
+mkdir tarraform_mono
+cd terraform_mono
 ```
+
+2. Create the main terraform file.
+```bash
+nano main.tf
+```
+
