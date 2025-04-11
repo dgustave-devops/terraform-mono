@@ -17,11 +17,17 @@ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://
 ```
 4. Update package list and install terraform.
 ```bash
-sudo apt update && sudo apt install terraform
+sudo apt update -y
+sudo apt install terraform -y
 ```
 5. Test to verify terraform was correctly installed.
 ```bash
 terraform -version
 ```
 
-
+### Declare infrastructure
+1. Create directory in home
+```bash
+cd ~
+mkdir 
+```
